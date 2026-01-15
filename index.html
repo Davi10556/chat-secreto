@@ -1,22 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <title>Chat Secreto</title>
+  <title>Chat Secreto 🔐</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<h2>Chat Secreto</h2>
+<h2>🔐 Chat Secreto</h2>
 
 <input id="nome" placeholder="Seu nome">
 <button onclick="entrar()">Entrar</button>
 
-<hr>
+<h3>👥 Online</h3>
+<ul id="online"></ul>
+
+<h3>💬 Chat</h3>
+<pre id="chat"></pre>
 
 <input id="msg" placeholder="Mensagem">
 <button onclick="enviar()">Enviar</button>
-
-<pre id="chat"></pre>
 
 <script type="module" src="script.js"></script>
 </body>
