@@ -15,12 +15,12 @@ import {
 
 // ⚠️ COLE AQUI SUA CONFIG DO FIREBASE
 const firebaseConfig = {
-  apiKey: "SUA_API_KEY",
-  authDomain: "SEU_DOMINIO",
-  projectId: "SEU_PROJECT_ID",
-  storageBucket: "SEU_BUCKET",
-  messagingSenderId: "SEU_ID",
-  appId: "SEU_APP_ID"
+  apiKey: "AIzaSyBySZmhCohX3fDrgkqASrr66LvO_Cjztz4",
+  authDomain: "fds-chat-ofc.firebaseapp.com",
+  projectId: "fds-chat-ofc",
+  storageBucket: "fds-chat-ofc.firebasestorage.app",
+  messagingSenderId: "679992054816",
+  appId: "1:679992054816:web:bb530d0cb9897996021845"
 };
 
 const app = initializeApp(firebaseConfig);
